@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+	<link rel="stylesheet" type="text/css" href="forms.css">
+</head>
+<body>
+	<div align="center">
+	<input type="search" name="search" placeholder="Search">
+	<input type="submit" value="search">
+	<form>
+		<fieldset>
+			<legend>Admission form</legend>
+			<label>Title:</label>
+			<select name="title">
+				<option value="Mr.">Mr.</option>
+				<option value="Ms.">Ms.</option>
+				<option value="Mrs.">Mrs.</option>
+			</select><br>
+			<label>Name:<span>*</span> </label><br>
+			<input type="text" name="Name" placeholder="John" required="required"><br>
+			
+			<label>Age:<span>*</span> </label><br>
+			<select name="grade">
+				<option value="I">I</option>
+				<option value="II">I</option>
+				<option value="III">III</option>
+				<option value="IV">IV</option>
+				<option value="V">V</option>
+				<option value="VI">VI</option>
+				<option value="VII">VII</option>
+				<option value="VIII">VIII</option>
+				<option value="IX">IX</option>
+				<option value="X">X</option>
+				<option value="XI">XI</option>
+				<option value="XII">XII</option>
+			</select><br>
+			<input type="number" name="Age" min="1" max="100"><br>
+			<label>Gender: </label><br>
+			<input type="radio" name="gender" value="Male">
+			<label>Male</label>
+			<input type="radio" name="gender" value="Female">
+			<label>Female</label>
+			<input type="radio" name="gender" value="others">
+			<label>Others</label><br>
+			<br>
+			<label>Upload your image:</label>
+			<input type="file" name="image"><br>
+			<label>Email</label>
+			<input type="email" name="email"><br>
+			<label>Date of birth</label>
+			<input type="date" name="dob"><br>
+			<!-- <input type="submit" value="Submit" id="submit"><br> -->
+			<button type="submit">Submit</button>
+			<!-- button type: submit, button, reset -->
+		</fieldset>
+	</form>
+	</div>
+</body>
+</html>

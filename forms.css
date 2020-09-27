@@ -1,0 +1,53 @@
+span{
+	color: green;
+}
+
+label{
+	font-family: Karumbi;
+	font-size: 50px;
+}
+
+legend{
+	font-family: italic;
+	font-size: 70px;
+	font-weight: normal;
+	font-style:italic;
+}
+
+fieldset{
+	background-color: lightblue;
+	width: 600px;
+	height: 600px;
+	border-width: 15px;
+	border-color: darkblue;
+	border-style: double;
+	float: left;
+}
+
+input{
+	border-width: 0px 0px 1px 0px;
+	height: 25px;
+}
+
+#submit{
+	width: 80px;
+	height: 30px;
+	background: url(bg09.jpeg);
+	border-width: 0px 0px 3px 0px;
+}
+
+#submit[value]{
+	color: green;
+	font-weight: inherit;
+}
+
+input[placeholder]{
+	font-family:italic;
+	font-size: 20px;
+}
+
+input:hover{
+	border-width: 0px 0px 2px 0px;
+	box-shadow: 5px 0px 15px red;
+	border-color: red;
+}

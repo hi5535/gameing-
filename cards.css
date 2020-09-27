@@ -1,0 +1,35 @@
+#main{
+	margin-top: 20px;
+	margin-right: 100px;
+	border: 4px solid black;
+	height: 1000px
+	background-color:orange;
+	float: right;
+}
+.card{
+	width: 300px;
+	height: 400px;
+    /*background-color:black;*/
+    float: left;
+    margin: 20px;
+    border:2px solid grey;
+    filter: brightness();
+}
+.para{
+	text-align: center;
+	font-family: "Arial";
+	background-color: orange;
+	/*color: white;*/
+	margin-top: 15px;
+	height:120px;
+	font-size:50px;
+}
+	.card:hover{
+        box-shadow:5px 5px 15px gray;
+}
+	img{
+		width: 250px;
+		height:250px;
+		margin-left:25px;
+		margin-right: 10px;
+	}
